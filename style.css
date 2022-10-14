@@ -23,10 +23,6 @@ header {
     align-items: center;
 }
 
-header:nth-child(2){
-    display: flex;
-}
-
 #trybewarts-header-title {
     color: white;
 }
@@ -37,4 +33,13 @@ header:nth-child(2){
 
 #password {
     margin-right: 10px;
+}
+
+main {
+    display: flex;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 675px;
 }
