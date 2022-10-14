@@ -43,9 +43,34 @@ main {
     display: flex;
     flex-direction: column;
     width: 675px;
-    align-items: justify;
 }
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+#evaluation-form #input-name {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    flex-basis: 40px;
+}
+
+#evaluation-form #input-lastname {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    flex-basis: 40px;
+}
+
+#evaluation-form #input-email {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+#evaluation-form #house {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
 }
