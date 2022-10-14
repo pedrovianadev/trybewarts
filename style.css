@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Inknut Antiqua', serif;
-}
-
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -54,7 +50,7 @@ main {
   margin-right: 15px;
   flex-direction: row;
   align-self: flex-start;
- flex-basis: 40px;
+  flex-basis: 40px;
 }
 
 #evaluation-form #input-lastname {
