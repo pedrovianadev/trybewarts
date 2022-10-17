@@ -23,6 +23,11 @@ header {
   color: white;
 }
 
+
+.trybewarts-header-logo {
+  width: 100px;
+}
+
 #email {
   margin-right: 10px;
 }
@@ -31,8 +36,9 @@ header {
   margin-right: 10px;
 }
 
-main {
+#container {
   display: flex;
+  justify-content: center;
 }
 
 #evaluation-form {
@@ -99,11 +105,11 @@ main {
 }
 
 #footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   background-color: rgb(74, 72, 72);
-  margin-top: auto;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }
